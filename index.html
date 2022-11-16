@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head><script type="text/javascript"> 
+ function show_confirm() 
+ { 
+ var r=confirm("Naciśnij klawisz"); 
+ if (r==true) 
+ { document.write("Nacisnąłeś OK!"); } 
+ else 
+ { document.write("Nacisnąłeś Cancel!"); } 
+ } 
+</script><script type="text/javascript"> function show_alert() { alert("Uwaga!"); } </script><script type="text/javascript"> 
+ function show_prompt() 
+ { 
+ var name=prompt("Napisz imię","Imię Nazwisko"); 
+ if (name!=null && name!="") 
+ { 
+ document.write("Witaj " + name + "! jak się masz?"); 
+ } 
+ } 
+11
+ </script> </head>
+<style>
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+</style>
+
+
+<table>
+<tr>
+<td><a target="_blank" href="zadanie1_Korda.html">zadanie1</a></td>
+<td><a target="_blank" href="zadanie2_Korda.html">zadanie2</a></td>
+ <td><a target="_blank" href="zadanie3_Korda.html">zadanie3</a></td>
+ <td><a target="_blank" onclick="show_alert()" value="Pokaż Alert Box">zadanie4</a></td>
+ <td><input type="button" onclick="show_confirm()" value="Pokaż confirm box" /></td>
+</tr>
+<tr>
+<td><input type="button" onclick="show_prompt()" value="Pokaż prompt box" /></td>
+<td><a target="_blank" href="zadanie7_Korda.html">zadanie7</a></td> 
+<td><a target="_blank" href="zadanie8_Korda.html">zadanie8</a></td>
+<td><a target="_blank" href="zadanie9_Korda.html">zadanie9</a></td>
+
+</tr>
+<tr>
+
+
+
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
